@@ -257,5 +257,5 @@ def main():
     elif menu_option == 'News Sentiment':
         sentiment_analysis(ticker_symbol)
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
